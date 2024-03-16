@@ -15,7 +15,7 @@
     - [Prediction Pipeline](#Prediction-Pipeline)
 7. [Web Application](#Web-Application)
 8. [Dependencies](#Dependencies)
-9. [Screenshots] (#Screenshots)
+9. [Screenshots](#Screenshots)
 9. [Contributing](#Contributing)
 10. [Credits](#Credits)
 
@@ -217,8 +217,7 @@ The project relies on the following dependencies:
 
 ![alt text](image.png)
 
-![alt text](image-2.png)
-
+![alt text](image-1.png)
 
 ## Contributing
 
