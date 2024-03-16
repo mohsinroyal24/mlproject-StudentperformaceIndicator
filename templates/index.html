@@ -1,1 +1,14 @@
-<h1>Welcome to home page</h1>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Performance Indicator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to home page</h1>
+    <a href="{{ url_for('index') }}">Go to Home Page</a>
+</body>
+</html>
