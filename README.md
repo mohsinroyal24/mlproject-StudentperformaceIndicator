@@ -4,16 +4,16 @@
 ## Table of Contents
 
 1. [Introduction](#Introduction)
-2. [Project Overview](#Project Overview )
+2. [Project Overview](#Project-Overview)
 3. [Installation](#Installation)
 4. [Usage](#Usage)
-5. [File Structure](#File Structure)
+5. [File Structure](#FileStructure)
 6. [Components](#Components)
-    - [Data Ingestion](#Data Ingestion)
-    - [Data Transformation](#Data Transformation)
-    - [Model Training](#Model Training)
-    - [Prediction Pipeline](#Prediction Pipeline)
-7. [Web Application](#Web Application)
+    - [Data Ingestion](#Data-Ingestion)
+    - [Data Transformation](#Data-Transformation)
+    - [Model Training](#Model-Training)
+    - [Prediction Pipeline](#Prediction-Pipeline)
+7. [Web Application](#Web-Application)
 8. [Dependencies](#Dependencies)
 9. [Screenshots] (#Screenshots)
 9. [Contributing](#Contributing)
@@ -197,11 +197,6 @@ The `predictive_pipeline.py` file contains two main classes: `PredictPipeline` a
    - Constructs a dictionary representing the custom data input.
    - Creates a DataFrame from the dictionary.
 
-### Summary:
-
-- The `PredictPipeline` class encapsulates the process of making predictions using a trained machine learning model and a preprocessor.
-- The `CustomData` class represents a structured way to input custom data for prediction and provides a method to convert it into a DataFrame.
-- Together, these classes provide a streamlined way to perform predictions on custom data inputs using the trained model and preprocessor.
 
 ## Web Application 
 The Flask web application (`app.py`) provides a user-friendly interface for interacting with the machine learning model. Users can input data through a form, and the application returns predictions based on the input.
@@ -218,13 +213,11 @@ The project relies on the following dependencies:
 - xgboost
 
 
-
 ## Screenshots
 
 ![alt text](image.png)
 
-![alt text](image-1.png)
-
+![alt text](image-2.png)
 
 
 ## Contributing
